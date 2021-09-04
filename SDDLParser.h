@@ -101,8 +101,7 @@ public:
         while(getline(fin,file)){
             if(file.empty()) continue;
 
-            cout << "Compiling (" << file << ")\r";
-            cout.flush();
+            cout << "Compiling (" << file << ")" << endl;
                  auto component = cp.readFile(file,componentTable);
             componentTable[component.name] = component;
 

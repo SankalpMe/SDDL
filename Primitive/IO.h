@@ -7,6 +7,8 @@
 #include <vector>
 #include <unordered_map>
 #include <string>
+#include <memory>
+#include <cassert>
 
 using namespace std;
 
