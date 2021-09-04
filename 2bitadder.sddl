@@ -1,0 +1,7 @@
+component 2bitadder
+signal s1,s2
+input a,b,c,d
+output o1,o2,cout
+fulladder b,d,s1 -> o1,s2
+fulladder a,c,s2 -> o2,cout
+

@@ -1,0 +1,4 @@
+component dut
+input a,b,c,d
+output o1,o2,cout
+2bitadder a,b,c,d -> o1,o2,cout
